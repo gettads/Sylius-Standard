@@ -25,6 +25,7 @@
     ],
     "require": {
         "php": "^8.2",
+        "gtt/sylius-product-setting-plugin": "dev-main",
         "sylius/sylius": "~2.0.0",
         "symfony/dotenv": "^6.4 || ^7.1",
         "symfony/flex": "^2.4",
@@ -136,5 +137,12 @@
         "symfony/polyfill-php81": "*",
         "symfony/polyfill-php82": "*",
         "symfony/polyfill-php83": "*"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gettads/sylius-product-setting-plugin.git"
+        }
+    ],
+    "minimum-stability": "dev"
 }

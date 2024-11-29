@@ -93,6 +93,9 @@
             "config/packages/fos_rest.yaml"
         ]
     },
+    "gtt/sylius-product-setting-plugin": {
+        "version": "dev-main"
+    },
     "jms/serializer-bundle": {
         "version": "5.4",
         "recipe": {
